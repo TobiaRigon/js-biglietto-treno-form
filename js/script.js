@@ -28,7 +28,7 @@ sendButton.addEventListener("click", function() {
     tariffaFinale = tariffaFinale.toFixed(2);
 
     // Mostra tariffa
-    document.getElementById('ticket').innerHTML = ` Il totale è di: ${tariffaFinale} € `;
+    document.getElementById('ticket').innerHTML = ` Il totale è di: ${tariffaFinale} § `;
 });
 
 
